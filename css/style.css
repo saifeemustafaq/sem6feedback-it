@@ -1,12 +1,16 @@
 #errorbox {
     text-align: center;
-    align-items: center;
+    align-self: flex-end;
+    /* align-items: right; */
     padding-top: 200px;
 }
 
 .mainDiv {
     text-align: center;
-    border-style: solid;
+    /* border-style: outset; */
+    border-style: unset;
+    border-radius: 10px;
+    border-width: 5px;
     margin: 20px;
     opacity: 0;
 }
@@ -14,6 +18,13 @@
 h1 {
     text-align: center;
     opacity: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #os {
@@ -38,4 +49,11 @@ h1 {
 
 #dss {
     float: right;
+}
+
+#grad1 {
+    height: 200px;
+    /* background-color: #fde7f9; */
+    background-image: linear-gradient(315deg, #fde7f9, #aacaef, #fde7f9, #aacaef);
+    /* Standard syntax (must be last) */
 }

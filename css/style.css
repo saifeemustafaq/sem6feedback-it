@@ -15,3 +15,27 @@ h1 {
     text-align: center;
     opacity: 0;
 }
+
+#os {
+    float: left;
+}
+
+#ooswe {
+    float: right;
+}
+
+#cc {
+    float: left;
+}
+
+#adt {
+    float: right;
+}
+
+#dip {
+    float: left;
+}
+
+#dss {
+    float: right;
+}

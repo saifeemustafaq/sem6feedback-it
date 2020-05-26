@@ -1,9 +1,26 @@
 function okay() {
+    //var truevar = valid()
+
+    // if (truevar === true) {
+    //     $("#errorbox").dialog("close");
+    //     var mD = document.getElementsByClassName("mainDiv");
+    //     mD.style.opacity = 1;
+    //     var head = document.getElementsByTagName("h1");
+    //     head.style.opacity = 1;
+    //     return true;
+    // }
+
     $("#errorbox").dialog("close");
-    document.getElementById("mainDiv").style.opacity = 1;
-    document.getElementsByTagName("h1").style.opacity = 1;
+    // var mD = document.getElementsByClassName("mainDiv");
+    // mD.style.opacity = 1;
+    // var head = document.getElementsByTagName("h1");
+    // head.style.opacity = 1;
+    return true;
 
+}
 
+function notokay() {
+    return null;
 }
 
 function valid() {
@@ -20,8 +37,8 @@ function valid() {
             console.log("correct credential");
             return okay();
         } else {
-            console.log("incorrect credentials");
-            return false;
+            alert("incorrect credentials");
+            //return false;
         }
 
     }

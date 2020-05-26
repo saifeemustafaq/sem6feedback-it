@@ -51,3 +51,17 @@ function valid() {
 // document.addEventListener("contextmenu", function(e) {
 //     e.preventDefault();
 // }, false);
+
+
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+}, false);
+$("#errorbox").dialog({
+    title: "Login",
+    draggable: false,
+    resizable: false,
+    width: 650,
+    height: 700,
+    modal: true,
+
+});

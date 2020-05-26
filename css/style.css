@@ -1,0 +1,17 @@
+#errorbox {
+    text-align: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.mainDiv {
+    text-align: center;
+    border-style: solid;
+    margin: 20px;
+    opacity: 0;
+}
+
+h1 {
+    text-align: center;
+    opacity: 0;
+}

@@ -11,8 +11,8 @@ function okay() {
     // }
 
     $("#errorbox").dialog("close");
-    $(".mainDiv").css("opacity", "1");
-    $("h1").css("opacity", "1");
+    $(".mask").css("opacity", "1");
+    // $("h1").css("opacity", "1");
     // var mD = document.getElementsByClassName("mainDiv");
     // mD.style.opacity = 1;
     // var head = document.getElementsByTagName("h1");
